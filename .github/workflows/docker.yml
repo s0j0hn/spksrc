@@ -20,7 +20,7 @@ on:
 jobs:
   docker:
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'SynoCommunity'
+    if: github.repository_owner == 's0j0hn'
     steps:
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
